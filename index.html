@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FITR</title>
+    <script
+              src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+              integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+              crossorigin="anonymous"></script>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style type="text/css">
+    h1 {
+        text-align: center;
+    }
+
+    body {
+        background-image: url();
+    }
+
+    #emp_parking, #mark  {
+        color: orange;
+    }
+
+    #reg_parking, #accessible {
+        color: lightblue;
+    }
+
+    #entrance {
+        color: yellow;
+    }
+
+    #bus {
+        color:darkblue;
+    }
+
+    #phar {
+        color:green;
+    }
+
+    #hospital {
+        color:darkred;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>E-Водич: Клинички центар</h1>
+<div class="row">
+    <div class="col l4 m4">
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="entrance">place</i>Влез за пациенти</div>
+          <div class="collapsible-body"><span>Овој влез е достапен за сите.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="phar">account_circle</i>Рецепција</div>
+          <div class="collapsible-body"><span>Тука ќе бидете пречекани од некој од нашите вработени.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="accessible">accessible</i>Паркинг за лица со попреченост</div>
+          <div class="collapsible-body"><span>На овој паркинг пристап имаат само лицата со пореченост.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="reg_parking">local_parking</i>Паркинг</div>
+          <div class="collapsible-body"><span>Овој Паркинг е достапен за посетители.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="emp_parking">local_parking</i>Паркинг за вработени</div>
+          <div class="collapsible-body"><span>Овој Паркинг е достапен само за вработени.</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="bus">directions_bus</i>Автобуска Станица</div>
+          <div class="collapsible-body"><span>На оваа Автобуска Станица може да се стигне со автобусите број 7,15,57</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">local_taxi</i>Такси Станица</div>
+          <div class="collapsible-body"><span>Ова место служи за нарачување на таксија и оставање</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="phar">local_pharmacy</i>Аптеки</div>
+          <div class="collapsible-body"><span>На овиее Автобуска Станица може да се стигне со автобусите број 7,15,57</span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="mark">store</i>Маркети</div>
+          <div class="collapsible-body"><span>Маркетите работат од 09:00 до 23:00</span></div>
+        </li>
+      </ul>
+    </div>
+    <div class="col l4 m4">
+        <img src="https://cdn.discordapp.com/attachments/855776275896336424/858292723034095626/Hospital-Site-Map.png" width="500" height="500">
+    </div>
+        
+    <div class="col l4 m4 ">
+          <ul class="collapsible">
+            <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>Универзитетска клиника</div>
+          <div class="collapsible-body"><span><a href="room.html">Кликни тука за пристап кон оделение.</a></span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК на Лице,вилици и врат-Максилофацијална хирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Урологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Дигестивна хирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Уво, нос, и грло</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Детска хирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Гастроентерохепатологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Гинекологија и акушерство</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Дерматологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Ендокринологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Инфективни болести и фебрилни состојби</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Кардиологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Кардиохирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Клиничка биохемија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Неврологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Неврохирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Нефрологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Очни болести</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Психијатрија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Пулмологија и Алергологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Радиологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Радиотерапија и онкологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Ревматологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за ТОАРИЛУЦ</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Токсикологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Торакална и васкуларна хирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Хематологија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК СБ по Хируршки болести “СВ.Наум Охридски</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Детски болести Скопје</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Пластична и реконструтивна хирургија</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+        
+
+    <li>
+          <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>Универзитетски Стоматолошки клинички центар -Свети Пантелејмон</div>
+          <div class="collapsible-body"><span>Nesho</span></div>
+        </li>
+          </ul>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+
+</script>
+</html>

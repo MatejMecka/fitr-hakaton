@@ -1,0 +1,39 @@
+{
+  "name": "ImageMapster",
+  "version": "1.5.4",
+  "homepage": "https://github.com/jamietre/ImageMapster",
+  "description": "jQuery plugin that activates areas in HTML imagemaps with support for highlighting, selecting, tooltips, resizing and more",
+  "main": "dist/jquery.imagemapster.min.js",
+  "keywords": [
+    "jquery",
+    "imagemapster",
+    "activate",
+    "area",
+    "html",
+    "plugin",
+    "maps",
+    "image",
+    "imagemap",
+    "canvas",
+    "highlight",
+    "select",
+    "resize",
+    "tooltip"
+  ],
+  "authors": ["James Treworgy <jamie@outsharked.com>"],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "examples",
+    "src",
+    ".vscode"
+  ],
+  "dependencies": {
+    "jquery": "latest"
+  }
+}

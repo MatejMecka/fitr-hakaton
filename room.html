@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script
+              src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+              integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+              crossorigin="anonymous"></script>
+
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style type="text/css">
+    	#ok {
+    		background-color: green;
+    	}
+
+    	#meh {
+    		background-color: orange;
+    	}
+
+    	#oh-no {
+    		background-color: red;
+    	}
+
+    	.modal-content {
+    		display: flex;
+    		flex-direction: column;
+    	}
+
+    	.btn{
+    		margin-top:15px;
+    	}
+
+    	area {
+    		display: block;
+    		background-color: pink;
+    	}
+    </style>
+</head>
+<body>
+	
+	<img src="https://cdn.discordapp.com/attachments/855776275896336424/858305218062843904/0a61d3b789497340.png" usemap="#image-map">
+	<map name="image-map">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="147,104,203,127" shape="rect">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="145,216,200,239" shape="rect">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="305,102,357,125" shape="rect">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="304,218,357,238" shape="rect">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="414,206,429,253" shape="rect">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="905,322,927,375" shape="rect">
+	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="1056,392,1084,449" shape="rect">
+	</map>
+
+	<a class="waves-effect waves-light btn modal-close" id="meh"><i class="material-icons left">videocam</i>Чат со Доктор</a>
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Статус на пациентот</h4>
+      <p>Одберете ја клиничката состојба</p>
+      <a class="waves-effect waves-light btn modal-close" id="ok"><i class="material-icons left">sentiment_satisfied</i>Пациентот е во добра клиничка состојба</a>
+      <a class="waves-effect waves-light btn modal-close" id="meh"><i class="material-icons left">sentiment_neutral</i>Пациентот е xxxx</a>
+      <a class="waves-effect waves-light btn modal-close" id="oh-no"><i class="material-icons left">sentiment_dissatisfied</i>Пациентот е xxxx</a>
+
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Готово</a>
+    </div>
+  </div>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+    	$('.modal').modal();
+  	});
+
+  </script>
+
+</body>
+</html>
