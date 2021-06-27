@@ -40,10 +40,17 @@
     		display: block;
     		background-color: pink;
     	}
+
+    	img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+    }
+
     </style>
 </head>
 <body>
-	
+	<img src="https://cdn.discordapp.com/attachments/857911517189373972/858342202459684894/E-vodicLogo.png" width="116" height="118">
 	<img src="https://cdn.discordapp.com/attachments/855776275896336424/858305218062843904/0a61d3b789497340.png" usemap="#image-map">
 	<map name="image-map">
 	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="147,104,203,127" shape="rect">
@@ -54,6 +61,13 @@
 	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="905,322,927,375" shape="rect">
 	    <area class="modal-trigger" alt="" title="" href="#modal1" coords="1056,392,1084,449" shape="rect">
 	</map>
+
+	<ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons" id="entrance">place</i>Влез за пациенти</div>
+          <div class="collapsible-body"><span>Овој влез е достапен за сите.</span></div>
+        </li>
+    </ul>
 
 	<a class="waves-effect waves-light btn modal-close" id="meh"><i class="material-icons left">videocam</i>Чат со Доктор</a>
   <!-- Modal Structure -->
@@ -71,8 +85,13 @@
     </div>
   </div>
   <script type="text/javascript">
+
   	$(document).ready(function(){
     	$('.modal').modal();
+  	});
+
+  	$(document).ready(function(){
+    	$('.collapsible').collapsible();
   	});
 
   </script>

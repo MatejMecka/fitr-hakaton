@@ -15,7 +15,7 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <style type="text/css">
-    h1 {
+    h3 {
         text-align: center;
     }
 
@@ -47,12 +47,31 @@
         color:darkred;
     }
 
+    #img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+    }
+
+    #banner { 
+        display: flex;
+        flex-direction: row;
+    }
+
+    #ad {
+        background-color: #2196F3;
+        text-align:center;
+    }
+
     </style>
 </head>
 <body>
-    <h1>E-Водич: Клинички центар</h1>
+    <div id="banner">
+        <img src="https://cdn.discordapp.com/attachments/857911517189373972/858342202459684894/E-vodicLogo.png" width="116" height="118" id="logo">
+        <h3>E-Водич: Клинички центар</h3>
+    </div>
 <div class="row">
-    <div class="col l4 m4">
+    <div class="col l2 m4">
       <ul class="collapsible">
         <li>
           <div class="collapsible-header"><i class="material-icons" id="entrance">place</i>Влез за пациенти</div>
@@ -84,7 +103,7 @@
         </li>
         <li>
           <div class="collapsible-header"><i class="material-icons" id="phar">local_pharmacy</i>Аптеки</div>
-          <div class="collapsible-body"><span>На овиее Автобуска Станица може да се стигне со автобусите број 7,15,57</span></div>
+          <div class="collapsible-body"><span>Работно време: 09:00-23:00</span></div>
         </li>
         <li>
           <div class="collapsible-header"><i class="material-icons" id="mark">store</i>Маркети</div>
@@ -92,198 +111,219 @@
         </li>
       </ul>
     </div>
-    <div class="col l4 m4">
-        <img src="https://cdn.discordapp.com/attachments/855776275896336424/858292723034095626/Hospital-Site-Map.png" width="500" height="500">
+    <div class="col l7 m4">
+        <img src="https://cdn.discordapp.com/attachments/855776275896336424/858292723034095626/Hospital-Site-Map.png" width="800" height="800" id="img">
+
+        <div width="500" height="500" id="ad">
+            <h1>Дали барате места за реклами? Со само неколку биткоини можете да имате реклама тука! Контактирајте не по гулабче некаде во Скопје<h1>
+        </div>
+
+        <div width="500" height="500" id="ad">
+            <h1>Дали сакате да биде овде вашата реклама и да се фалите пред сите? Едноставно испратете гулабче со писмо пари, вашата реклама и ќе можете да ја гледате во било кој момент<h1>
+        </div>
+
     </div>
         
-    <div class="col l4 m4 ">
+    <div class="col l3 m4 ">
           <ul class="collapsible">
             <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>Универзитетска клиника</div>
-          <div class="collapsible-body"><span><a href="room.html">Кликни тука за пристап кон оделение.</a></span></div>
+          <div class="collapsible-body">
+            <a href="room.html">Кликни тука за пристап кон оделение.</a>
+            <br>
+            <span>Адреса: Ул.Водњанска, бр.17</span>
+        </div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК на Лице,вилици и врат-Максилофацијална хирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body">
+              <span>Адреса: Ул.Водњанска, бр.17</span>
+          </div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Урологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Дигестивна хирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Уво, нос, и грло</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Детска хирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Гастроентерохепатологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Гинекологија и акушерство</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Дерматологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Ендокринологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Инфективни болести и фебрилни состојби</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Кардиологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Кардиохирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Клиничка биохемија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Неврологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Неврохирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Нефрологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Очни болести</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Психијатрија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Пулмологија и Алергологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Радиологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Радиотерапија и онкологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Ревматологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за ТОАРИЛУЦ</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Токсикологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Торакална и васкуларна хирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Хематологија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК СБ по Хируршки болести “СВ.Наум Охридски</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Детски болести Скопје</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>УК за Пластична и реконструтивна хирургија</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
         
 
     <li>
           <div class="collapsible-header"><i class="material-icons" id="hospital">local_hospital</i>Универзитетски Стоматолошки клинички центар -Свети Пантелејмон</div>
-          <div class="collapsible-body"><span>Nesho</span></div>
+          <div class="collapsible-body"><span>Адреса: Ул.Водњанска, бр.17</span></div>
         </li>
+    
           </ul>
         </div>
+
+    </div>
+
+    <div width="500" height="500" id="ad">
+        <h1>Дали барате места за реклами? Со само неколку биткоини можете да имате реклама тука! Контактирајте не по гулабче некаде во Скопје<h1>
     </div>
 
 </body>
